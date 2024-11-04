@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = tt_um_ADPCM_COMPRESSOR.v ima_adpcm_enc.v CICDecimatorVerilogBlock.v CIC_ADPCM_Wrapper.v
 
 ifneq ($(GATES),yes)
 
